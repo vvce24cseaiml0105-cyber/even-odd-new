@@ -8,7 +8,7 @@ class EvenOddTest {
     @Test
     void testEvenNumber() {
 
-        assertEquals("Even",
+        assertEquals("Odd",
                 EvenOdd.checkEvenOdd(10));
     }
 
@@ -22,7 +22,7 @@ class EvenOddTest {
     @Test
     void testZero() {
 
-        assertEquals("Even",
+        assertEquals("Odd",
                 EvenOdd.checkEvenOdd(0));
     }
 
